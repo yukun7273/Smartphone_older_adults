@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--点击和拖动的尺寸-->
+    <dimen name="size1" >48dp </dimen>
+    <dimen name="gap1">24dp</dimen>
+
+    <dimen name="gap0">8.7px</dimen>
+
+    <dimen name="size2">23dp</dimen>
+    <!--<dimen name="gap2">148dp</dimen>-->
+    <dimen name="gap2">82.73dp</dimen>  // 以45度为单位进行取点
+    <dimen name="gap3">78dp</dimen>     //调整后的间距
+
+
+
+    <dimen name="ima1">288px</dimen>
+    <dimen name="margin">-144px</dimen>
+    <dimen name="ima2">598px</dimen>
+    <dimen name="margin2">-466px</dimen>
+
+    <dimen name="scale1">144px</dimen>
+    <dimen name="scale_tv1">504.6px</dimen>
+    
+    <dimen name="rotate">360px</dimen>
+</resources>

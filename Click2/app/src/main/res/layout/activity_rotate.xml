@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rotate1"
+    android:background="#fff">
+
+    <ImageView
+        android:id="@+id/ro_1"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:src="@mipmap/scale"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/rofz_1"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:rotation="15"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/ro_2"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:src="@mipmap/scale"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toRightOf="@id/ro_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rofz_2"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:rotation="15"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ro_3"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:src="@mipmap/scale"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toRightOf="@id/ro_2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rofz_3"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:rotation="15"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ro_4"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:src="@mipmap/scale"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_1"
+        app:layout_constraintTop_toBottomOf="@id/ro_1" />
+
+    <TextView
+        android:id="@+id/rofz_4"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:rotation="15"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_4"
+        app:layout_constraintTop_toTopOf="@id/ro_4" />
+
+    <ImageView
+        android:id="@+id/ro_5"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:src="@mipmap/scale"
+        app:layout_constraintLeft_toLeftOf="@id/ro_2"
+        app:layout_constraintTop_toBottomOf="@id/ro_1"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/rofz_5"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:rotation="15"
+        app:layout_constraintLeft_toLeftOf="@id/ro_5"
+        app:layout_constraintTop_toTopOf="@id/ro_4"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/ro_6"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:src="@mipmap/scale"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_3"
+        app:layout_constraintTop_toBottomOf="@id/ro_1" />
+
+    <TextView
+        android:id="@+id/rofz_6"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:rotation="15"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_6"
+        app:layout_constraintTop_toTopOf="@id/ro_4" />
+
+    <ImageView
+        android:id="@+id/ro_7"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:src="@mipmap/scale"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_4"
+        app:layout_constraintTop_toBottomOf="@id/ro_4" />
+
+    <TextView
+        android:id="@+id/rofz_7"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:rotation="15"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_7"
+        app:layout_constraintTop_toTopOf="@id/ro_7" />
+
+    <ImageView
+        android:id="@+id/ro_8"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:src="@mipmap/scale"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_5"
+        app:layout_constraintTop_toBottomOf="@id/ro_4" />
+
+    <TextView
+        android:id="@+id/rofz_8"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:rotation="15"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_8"
+        app:layout_constraintTop_toTopOf="@id/ro_7" />
+
+    <ImageView
+        android:id="@+id/ro_9"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:src="@mipmap/scale"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_6"
+        app:layout_constraintTop_toBottomOf="@id/ro_4" />
+
+    <TextView
+        android:id="@+id/rofz_9"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:rotation="15"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_9"
+        app:layout_constraintTop_toTopOf="@id/ro_7" />
+
+    <ImageView
+        android:id="@+id/ro_10"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:src="@mipmap/scale"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_7"
+        app:layout_constraintTop_toBottomOf="@id/ro_7" />
+
+    <TextView
+        android:id="@+id/rofz_10"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:rotation="15"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_10"
+        app:layout_constraintTop_toTopOf="@id/ro_10" />
+
+    <ImageView
+        android:id="@+id/ro_11"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:src="@mipmap/scale"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_8"
+        app:layout_constraintTop_toBottomOf="@id/ro_7" />
+
+    <TextView
+        android:id="@+id/rofz_11"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:rotation="15"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_11"
+        app:layout_constraintTop_toTopOf="@id/ro_10" />
+
+    <ImageView
+        android:id="@+id/ro_12"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:src="@mipmap/scale"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_9"
+        app:layout_constraintTop_toBottomOf="@id/ro_7" />
+    <TextView
+        android:id="@+id/rofz_12"
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:rotation="15"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_12"
+        app:layout_constraintTop_toTopOf="@id/ro_10" />
+    <ImageView
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:id="@+id/ro_13"
+        android:visibility="invisible"
+        android:src="@mipmap/scale"
+        app:layout_constraintLeft_toLeftOf="@id/ro_10"
+        app:layout_constraintTop_toBottomOf="@id/ro_10"/>
+    <TextView
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:id="@+id/rofz_13"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_13"
+        app:layout_constraintTop_toTopOf="@id/ro_13"
+        android:rotation="15"/>
+    <ImageView
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:id="@+id/ro_14"
+        android:visibility="invisible"
+        android:src="@mipmap/scale"
+        app:layout_constraintLeft_toLeftOf="@id/ro_11"
+        app:layout_constraintTop_toBottomOf="@id/ro_11"/>
+    <TextView
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:id="@+id/rofz_14"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_14"
+        app:layout_constraintTop_toTopOf="@id/ro_14"
+        android:rotation="15"/>
+
+    <ImageView
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:id="@+id/ro_15"
+        android:visibility="invisible"
+        android:src="@mipmap/scale"
+        app:layout_constraintLeft_toLeftOf="@id/ro_12"
+        app:layout_constraintTop_toBottomOf="@id/ro_11"/>
+    <TextView
+        android:layout_width="@dimen/rotate"
+        android:layout_height="@dimen/rotate"
+        android:background="@drawable/ck_bd"
+        android:id="@+id/rofz_15"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/ro_12"
+        app:layout_constraintTop_toTopOf="@id/ro_14"
+        android:rotation="15"/>
+
+
+</android.support.constraint.ConstraintLayout>
